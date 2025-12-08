@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.coachteam.controller.LoginController">
+
+    <Label text="Coach Squad Organizer" style="-fx-font-size: 44;" />
+    <TextField fx:id="usernameField" promptText="Enter Username"/>
+    <Button text="Login" onAction="#login"/>
+</VBox>
