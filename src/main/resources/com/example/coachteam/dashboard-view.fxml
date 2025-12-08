@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20" alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.coachteam.controller.DashboardController">
+
+    <Label text="Dashboard" style="-fx-font-size: 100;" />
+    <HBox spacing="20">
+        <Label text="Players:" />
+        <Label fx:id="totalPlayersLabel" text="0"/>
+    </HBox>
+
+    <HBox spacing="50">
+        <Label text="Managers:" />
+        <Label fx:id="totalManagersLabel" text="0"/>
+    </HBox>
+
+</VBox>
