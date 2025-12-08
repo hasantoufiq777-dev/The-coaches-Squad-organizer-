@@ -9,6 +9,7 @@ public class Player {
     private int jersey;
     private Position position;
     private boolean injured;
+    private Club club;
 
 
     public Player(String name, LocalDate dob, int jersey, Position position) {
@@ -34,9 +35,12 @@ public class Player {
     public boolean isInjured() {
         return injured;
     }
-
-
-
+    public Club getClub() {
+        return club;
+    }
+    public void setClub (Club club) {
+        this.club = club;
+    }
     public void setInjured(boolean injured) {
         this.injured = injured;
     }
