@@ -9,13 +9,13 @@
     <children>
         <VBox alignment="CENTER" spacing="35" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
 
-            <!-- Title styled like login title -->
+
             <Label styleClass="login-title" text="Dashboard">
             <font>
                <Font name="System Bold" size="27.0" />
             </font></Label>
 
-            <!-- Stats Section -->
+
             <HBox alignment="CENTER" spacing="40">
                 <Label style="-fx-text-fill: white; -fx-font-size: 20;" text="Players:" />
                 <Label fx:id="totalPlayersLabel" style="-fx-text-fill: white; -fx-font-size: 22; -fx-font-weight: bold;" text="0" />

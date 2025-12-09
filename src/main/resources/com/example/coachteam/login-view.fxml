@@ -8,16 +8,15 @@
 
     <children>
         <VBox alignment="CENTER" spacing="20" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
-
-            <Label styleClass="login-title" text="Coach Squad Organizer" textFill="#0e62a1">
-            <font>
-               <Font name="Arial Rounded MT Bold" size="25.0" />
-            </font></Label>
+            <Label styleClass="login-title" text="Coach Squad Organizer" textFill="#3827d1">
+                <font>
+                    <Font name="Arial Rounded MT Bold" size="25.0" />
+                </font>
+            </Label>
 
             <TextField fx:id="usernameField" maxWidth="250" promptText="Enter Username" />
 
-            <Button maxWidth="150" onAction="#login" styleClass="login-button" text="Login" textFill="#182da3" />
-
+            <Button maxWidth="150" onAction="#login" text="Login" textFill="#3827d1" />
         </VBox>
     </children>
 

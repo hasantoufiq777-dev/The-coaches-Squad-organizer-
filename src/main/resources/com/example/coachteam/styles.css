@@ -1,22 +1,32 @@
-/* dashboard background */
+
 #dashboardRoot {
-    -fx-background-color: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    -fx-background-color: linear-gradient(to bottom right, #1e3c75, #2a5298);
 }
 
-/* big title */
+
 .dashboard-title {
     -fx-font-size: 48px;
     -fx-text-fill: white;
     -fx-font-weight: bold;
 }
+#loginRoot {
+    -fx-background-color: linear-gradient(to bottom right, #1e3c75, #2a5298);
+}
 
-/* labels: "Players:", "Managers:" */
+
+.login-title {
+    -fx-font-size: 48px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
 .stats-label {
     -fx-font-size: 18px;
     -fx-text-fill: #e0e0e0;
 }
 
-/* values: numbers */
+
 .stats-value {
     -fx-font-size: 22px;
     -fx-text-fill: #ffffff;
