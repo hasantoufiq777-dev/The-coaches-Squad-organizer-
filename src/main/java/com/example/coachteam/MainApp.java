@@ -12,10 +12,12 @@ public class MainApp extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(
                 MainApp.class.getResource("/com/example/coachteam/login-view.fxml")
         );
+
         stage.setTitle("Coach Squad Organizer");
         stage.setScene(new Scene(fxmlLoader.load()));
         stage.show();
     }
+
 
     public static void main(String[] args) {
         launch();
