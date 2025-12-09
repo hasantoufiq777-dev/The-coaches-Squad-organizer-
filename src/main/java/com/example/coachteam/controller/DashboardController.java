@@ -17,8 +17,8 @@ public class DashboardController {
         int managers = 0;
 
         for (Club c : ClubService.getClubs()) {
-           // players += c.getPlayers().size();
-           // managers += c.getManagers().size();
+            players += c.getPlayers().size();
+           //managers += c.getManagers().size();
         }
 
         totalPlayersLabel.setText(String.valueOf(players));
